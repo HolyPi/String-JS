@@ -1,12 +1,20 @@
 {
-  "name": "string-lib",
+  "name": "@holyari/string-lib-ver-1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HolyPi/String-JS-exercises.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HolyPi/String-JS-exercises/issues"
+  },
+  "homepage": "https://github.com/HolyPi/String-JS-exercises#readme",
+  "description": ""
 }
