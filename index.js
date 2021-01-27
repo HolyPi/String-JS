@@ -50,6 +50,8 @@ function kebobCase(str) {
 
 console.log(kebobCase("oh no"))
 
+// ---- Challenge 6 ---- 
+
 function snakeCase(str) {
     return str.replace(/\W+/g, " ")
       .split(/ |\B(?=[A-Z])/)
@@ -59,9 +61,16 @@ function snakeCase(str) {
 
 console.log(snakeCase("oh what"))
 
-function camelCase(str) {
+// ---- Challenge 7 ---- 
 
+function camelCase(str) {
+    return str.replace(/\W+(.)/g, function(str)
+    {
+      return str.toUpperCase();
+    });
 }
+
+console.log(camelCase("hello camel case"))
 
 function shift(str) {
 
