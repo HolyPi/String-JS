@@ -38,13 +38,26 @@ function removeExtraSpaces(str) {
 
 console.log(removeExtraSpaces("   henlo    henlo   "))
 
-function kebobCase(str) {
 
+// ---- Challenge 5 ---- 
+
+function kebobCase(str) {
+    return str.replace(/\W+/g, " ")
+      .split(/ |\B(?=[A-Z])/)
+      .map(word => word.toLowerCase())
+      .join('-'); 
 }
+
+console.log(kebobCase("oh no"))
 
 function snakeCase(str) {
-
+    return str.replace(/\W+/g, " ")
+      .split(/ |\B(?=[A-Z])/)
+      .map(word => word.toLowerCase())
+      .join('_');
 }
+
+console.log(snakeCase("oh what"))
 
 function camelCase(str) {
 
