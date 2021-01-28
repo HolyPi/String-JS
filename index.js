@@ -71,7 +71,7 @@ function camelCase(str) {
 }
 
 console.log(camelCase("hello camel case"))
-// ---- Challenge 7 ---- 
+// ---- Challenge 8 ---- 
 
 function shift(str) {
     const fletter = str[0]
