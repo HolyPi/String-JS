@@ -71,14 +71,22 @@ function camelCase(str) {
 }
 
 console.log(camelCase("hello camel case"))
+// ---- Challenge 7 ---- 
 
 function shift(str) {
-
+    const fletter = str[0]
+    return str.slice(1) + fletter;
 }
+
+console.log(shift("hello"))
+
+// ---- Challenge 8 ---- 
 
 function makeHashTag(str) {
 
 }
+
+// ---- Challenge 9 ---- 
 
 function isEmpty(str) {
 
