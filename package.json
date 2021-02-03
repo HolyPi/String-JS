@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
     "url": "https://github.com/HolyPi/String-JS-exercises/issues"
   },
   "homepage": "https://github.com/HolyPi/String-JS-exercises#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
