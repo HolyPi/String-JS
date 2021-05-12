@@ -1,5 +1,5 @@
 
-// ---- Challenge 1 ----
+
 function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1)
 }
@@ -8,9 +8,6 @@ String.prototype.capitalize = function () {
     return capitalize(this);
 }
 console.log(capitalize("hello"))
-
-
-// ---- Challenge 2 ----
 
 function allCaps(str) {
     return str.toUpperCase();
@@ -23,7 +20,6 @@ String.prototype.allCaps = function () {
 console.log(allCaps("i am small"))
 
 
-// ---- Challenge 3 ----
 
 
 function capitalizeWords(str) {
@@ -39,8 +35,6 @@ String.prototype.capitalizeWords = function () {
 
 console.log(capitalizeWords("hello hello"))
 
-// ---- Challenge 4 ----
-
 function removeExtraSpaces(str) {
     str.trim() 
     const nospace = str.split(' ').filter(item => item);
@@ -52,7 +46,6 @@ String.prototype.removeExtraSpaces = function () {
     return removeExtraSpaces(this);
 }
 
-// ---- Challenge 5 ---- 
 
 function kebobCase(str) {
     return str.replace(/\W+/g, " ")
@@ -67,7 +60,6 @@ String.prototype.kebobCase = function () {
 
 console.log(kebobCase("oh no"))
 
-// ---- Challenge 6 ---- 
 
 function snakeCase(str) {
     return str.replace(/\W+/g, " ")
@@ -82,7 +74,6 @@ String.prototype.snakeCase = function () {
 
 console.log(snakeCase("oh what"))
 
-// ---- Challenge 7 ---- 
 
 function camelCase(str) {
     return str.replace(/\W+(.)/g, function(str)
@@ -96,7 +87,7 @@ String.prototype.camelCase = function () {
 }
 
 console.log(camelCase("hello camel case"))
-// ---- Challenge 8 ---- 
+
 
 function shift(str) {
     const fletter = str[0]
@@ -109,17 +100,6 @@ String.prototype.shift = function () {
 
 console.log(shift("hello"))
 
-// ---- Challenge 8 ---- 
-
-function makeHashTag(str) {
-   
-}
-
-// ---- Challenge 9 ---- 
-
-function isEmpty(str) {
-
-}
 
 module.exports.capitalize = capitalize
 module.exports.allCaps = allCaps
